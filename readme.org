@@ -1,0 +1,128 @@
+# -*- org-export-babel-evaluate: nil -*-
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+title: Documentation New World
+
+* TODO Traitement images                                           :noexport:
+
+#+begin_src bash :eval never-export
+    convert img/recolte_wood.webp -crop 2616x1762+0+0 img/recolte_wood_bonus.webp
+    convert img/recolte_wood.webp -crop 1794x1762+2603+0 img/recolte_wood_objets.webp
+    convert img/recolte_mine.webp -crop 2609x1762+0+0 img/recolte_mine_bonus.webp
+    convert img/recolte_mine.webp -crop 1772x1762+2609+0 img/recolte_mine_objets.webp
+    convert img/recolte_hunt.webp -crop 2609x1762+0+0 img/recolte_hunt_bonus.webp
+    convert img/recolte_hunt.webp -crop 1772x1762+2609+0 img/recolte_hunt_objets.webp
+    convert img/recolte_gath.webp -crop 2602x1762+0+0 img/recolte_gath_bonus.webp
+    convert img/recolte_gath.webp -crop 1938x1762+2602+0 img/recolte_gath_objets.webp
+#+end_src
+
+#+RESULTS:
+* Armes/Classes
+
+  Les armes remplacent les traditionnelles "classes" dans new
+  world. Il est possible d'en équiper *deux simultanément* et d'en
+  changer à n'importe quel moment ?
+
+  Il y a un niveau de maîtrise pour chaque type d'arme. Le niveau de
+  maîtrise d'une arme se monte en... jouant avec cette arme. Il est
+  ainsi possible de monter toutes les armes en même temps, bien que
+  cela ne soit pas conseillé : en étant moyen partout, on est bon
+  nulle part.
+
+#+caption: Comment utiliser les fiches d'armes
+[[file:img/armes_info.webp]]
+
+#+caption: Infos sur l'arc
+[[file:img/armes_bow.webp]]
+
+#+caption: Infos sur le bâton de feu
+[[file:img/armes_firestaff.webp]]
+
+#+caption: Infos sur la hace à deux mains
+[[file:img/armes_greataxe.webp]]
+
+#+caption: Infos sur la hachette
+[[file:img/armes_hatchet.webp]]
+
+#+caption: Infos sur le gantelet de glace
+[[file:img/armes_icegauntlet.webp]]
+
+#+caption: Infos sur le bâton de vie
+[[file:img/armes_lifestaff.webp]]
+
+#+caption: Infos sur le mousquet
+[[file:img/armes_musquet.webp]]
+
+#+caption: Infos sur la rapière
+[[file:img/armes_rapier.webp]]
+
+#+caption: Infos sur la lance
+[[file:img/armes_spear.webp]]
+
+#+caption: Infos sur l'épée
+[[file:img/armes_sword.webp]]
+
+* Système de Craft
+*Trois étapes* sont nécessaires à la réalisation complète d'un objet.
+1. récolte ::
+2. Transformation ::
+3. Fabrication ::
+
+** Détails sur la récolte
+
+   Infographies récupérées ici :
+   https://www.reddit.com/r/newworldgame/comments/prcvrn/updated_new_world_gathering_infographics/
+
+*** Deep rock galactic
+#+caption: Guide des bonus de Dylan
+[[file:img/recolte_mine_bonus.webp]]
+
+#+caption: Guide des objets issus de la mine
+[[file:img/recolte_mine_objets.webp]]
+*** Chasse
+#+caption: Guide des bonus de la chasse
+[[file:img/recolte_hunt_bonus.webp]]
+
+#+caption: Guide des objets issus de la chasse
+[[file:img/recolte_hunt_objets.webp]]
+
+*** Collecte de plantes
+#+caption: Guide des bonus de la collecte de plantes
+[[file:img/recolte_gath_bonus.webp]]
+
+#+caption: Guide des objets issus de la collecte de plantes
+[[file:img/recolte_gath_objets.webp]]
+
+*** Bûcheron
+#+caption: Guide des bonus du bûcheron
+[[file:img/recolte_wood_bonus.webp]]
+
+#+caption: Guide des objets issus du bûcheronnage
+[[file:img/recolte_wood_objets.webp]]
+
+*** Anti-Fun (pêche)
+    https://newworldfishingguide.com/fishing-hotspot-locations.html
+
+* Stephan plazza
+
+  Les maisons servent à faire du fast travel gratuit si j'ai bien
+  compris.
+
+  La première maison coûte -50%, ça peut valoir le coup d'attendre une
+  maison plus haut tier ?
+  https://www.reddit.com/r/newworldgame/comments/pr439u/starting_cities_house_buying_guides/
+* Jouer ensemble :
+** Choix faction
+
+   Items exclusifs de faction :
+   https://www.reddit.com/r/newworldgame/comments/pr47yf/faction_exclusive_items/
+** Se synchroniser pour les quetes
+   https://www.reddit.com/r/newworldgame/comments/ps88dj/if_you_want_to_quest_with_your_buddies_at_the/
+
+** Compagnie
+
+*** Requêtes entre membres :
+    Un mec à fait ça, pk pas :
+   https://www.reddit.com/r/newworldgame/comments/ppbvm5/company_item_request_and_item_giveaway/
+* Ressources
+
+  https://newworldfans.com/
