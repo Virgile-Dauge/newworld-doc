@@ -2,6 +2,8 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+title: Documentation New World
 
+* Carte interactive
+  https://mapgenie.io/new-world/maps/aeternum
 * TODO Traitement images                                           :noexport:
 
 #+begin_src bash :eval never-export
@@ -104,8 +106,18 @@
 
 * Stephan plazza
 
-  Les maisons servent à faire du fast travel gratuit si j'ai bien
-  compris.
+  Les maisons peuvent êtres achetées en ville et procurent des bonus *locaux* :
+  - Plus de stockage
+  - Possibilité de fast travel gratuit (avec Cooldown)
+  - Utiliser des trophées, qui accordent des bonus non négligeables /(est-ce local ?)/
+
+  A compléter :
+  - Qu'est-ce que le "standing" ?
+  - Qu'est-ce que les "light" ?
+  - A quoi servent les "pets" ?
+
+  #+caption: Guide bonus maisons
+  [[file:img/housing.png]]
 
   La première maison coûte -50%, ça peut valoir le coup d'attendre une
   maison plus haut tier ?
