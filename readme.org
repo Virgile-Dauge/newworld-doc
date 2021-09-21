@@ -4,20 +4,7 @@
 
 * Carte interactive
   https://mapgenie.io/new-world/maps/aeternum
-* TODO Traitement images                                           :noexport:
 
-#+begin_src bash :eval never-export
-    convert img/recolte_wood.webp -crop 2616x1762+0+0 img/recolte_wood_bonus.webp
-    convert img/recolte_wood.webp -crop 1794x1762+2603+0 img/recolte_wood_objets.webp
-    convert img/recolte_mine.webp -crop 2609x1762+0+0 img/recolte_mine_bonus.webp
-    convert img/recolte_mine.webp -crop 1772x1762+2609+0 img/recolte_mine_objets.webp
-    convert img/recolte_hunt.webp -crop 2609x1762+0+0 img/recolte_hunt_bonus.webp
-    convert img/recolte_hunt.webp -crop 1772x1762+2609+0 img/recolte_hunt_objets.webp
-    convert img/recolte_gath.webp -crop 2602x1762+0+0 img/recolte_gath_bonus.webp
-    convert img/recolte_gath.webp -crop 1938x1762+2602+0 img/recolte_gath_objets.webp
-#+end_src
-
-#+RESULTS:
 * Armes/Classes
 
   Les armes remplacent les traditionnelles "classes" dans new
@@ -63,6 +50,9 @@
 #+caption: Infos sur l'épée
 [[file:img/armes_sword.webp]]
 
+* Objets
+** Rapide introduction :
+   https://www.newworld.com/en-us/news/articles/items-in-new-world
 * Système de Craft
 *Trois étapes* sont nécessaires à la réalisation complète d'un objet.
 1. récolte ::
@@ -104,6 +94,8 @@
 *** Anti-Fun (pêche)
     https://newworldfishingguide.com/fishing-hotspot-locations.html
 
+* J'aime pas m'amuser (Min-max)
+  https://nwhub.gg/leveling-guide-free/?utm_source=nwdb&utm_medium=header&utm_campaign=0910
 * Stephan plazza
 
   Les maisons peuvent êtres achetées en ville et procurent des bonus *locaux* :
@@ -122,6 +114,8 @@
   La première maison coûte -50%, ça peut valoir le coup d'attendre une
   maison plus haut tier ?
   https://www.reddit.com/r/newworldgame/comments/pr439u/starting_cities_house_buying_guides/
+
+  Guide plus complet : https://newworldfans.com/articles/new-world-housing
 * Jouer ensemble :
 ** Choix faction
 
@@ -138,3 +132,18 @@
 * Ressources
 
   https://newworldfans.com/
+
+* TODO Traitement images                                           :noexport:
+
+#+begin_src bash :eval never-export
+    convert img/recolte_wood.webp -crop 2616x1762+0+0 img/recolte_wood_bonus.webp
+    convert img/recolte_wood.webp -crop 1794x1762+2603+0 img/recolte_wood_objets.webp
+    convert img/recolte_mine.webp -crop 2609x1762+0+0 img/recolte_mine_bonus.webp
+    convert img/recolte_mine.webp -crop 1772x1762+2609+0 img/recolte_mine_objets.webp
+    convert img/recolte_hunt.webp -crop 2609x1762+0+0 img/recolte_hunt_bonus.webp
+    convert img/recolte_hunt.webp -crop 1772x1762+2609+0 img/recolte_hunt_objets.webp
+    convert img/recolte_gath.webp -crop 2602x1762+0+0 img/recolte_gath_bonus.webp
+    convert img/recolte_gath.webp -crop 1938x1762+2602+0 img/recolte_gath_objets.webp
+#+end_src
+
+#+RESULTS:
