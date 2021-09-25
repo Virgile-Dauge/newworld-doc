@@ -1,9 +1,59 @@
 # -*- org-export-babel-evaluate: nil -*-
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+title: Documentation New World
-
+#+SPDX-FileCopyrightText: 2021 Virgile Daugé <https://virgile-dauge.github.io/newworld-doc/>
+#+SPDX-License-Identifier: CC-BY-SA-4.0
 * Carte interactive
   https://mapgenie.io/new-world/maps/aeternum
+
+* Mécaniques
+** Types de dégâts
+   Les dégâts infligés sont affichés avec un code couleur,
+   correspondant à la résistance/neutralité/vulnérabilité vis à vis du
+   type de dégâts que fait votre arme.
+
+#+caption: Code couleur des dégâts
+| Couleur | Signification | Conséquence sur vos dégâts |
+|---------+---------------+----------------------------|
+| Bleu    | Résistance    | Malus                      |
+| Blanc   | neutre        | Base                       |
+| Jaune   | Vulnérabilité | Bonus                      |
+
+#+caption: Tableau des résistances en fonction des factions de mobs
+[[file:img/damage_effectiveness.webp]]
+
+
+** Buffs/Debuffs
+
+#+caption: Buffs
+| Effect  | Description                                 | limit                          |
+|---------+---------------------------------------------+--------------------------------|
+| Cleanse | Removes and provides immunity to all debuffs. |                                |
+| Empower | Increases attack damage.                    | 50 %                           |
+| Fortify | Increases damage absorption.                | 50 %                           |
+| Haste   | Increases run and/or sprint speed.          | 50 % (ignored by Haste Elixir) |
+| Heal    | Restores health over time.                  |                                |
+
+#+caption: Debuffs
+| Effect  | Description                                             | limit |
+|---------+---------------------------------------------------------+-------|
+| Slow    | Reduces run and/or sprint speed.                        | 50 %  |
+| Rend    | Reduce damage absorption.                               | 30 %  |
+| Weaken  | Reduces attack damage.                                  | 50 %  |
+| Disease | Reduces healing.                                        | 50 %  |
+| Exhaust | Reduces stamina regeneration.                           |       |
+| Silence | Disables abilities but allows basic attacks.            |       |
+| Root    | Disables movement but allows basic attacks and abilities. |       |
+| Stun    | Disables all actions.                                   |       |
+
+#+caption: Damage Over Time Effects
+| Effect | Description                        |
+|--------+------------------------------------|
+| Burn   | Applies Fire damage over time.     |
+| Bleed  | Applies Standard damage over time. |
+| Poison | Applies Magic damage over time.    |
+| Shock  | Applies Stamina damage over time.  |
+
 
 * Armes/Classes
 
