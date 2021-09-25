@@ -7,55 +7,130 @@
   https://mapgenie.io/new-world/maps/aeternum
 
 * Mécaniques
-** Types de dégâts
-   Les dégâts infligés sont affichés avec un code couleur,
-   correspondant à la résistance/neutralité/vulnérabilité vis à vis du
-   type de dégâts que fait votre arme.
 
-#+caption: Code couleur des dégâts
-| Couleur | Signification | Conséquence sur vos dégâts |
-|---------+---------------+----------------------------|
-| Bleu    | Résistance    | Malus                      |
-| Blanc   | neutre        | Base                       |
-| Jaune   | Vulnérabilité | Bonus                      |
+** Progression du joueur
+As you kill monsters, complete quests, gather and craft you will gain
+experience. You can level up to a maximum level cap of 60.  You can
+see your current experience progress at the bottom of your screen or by
+pressing “K” and viewing your character screen. You can see the
+numerical values by hovering over the bar.
 
-#+caption: Tableau des résistances en fonction des factions de mobs
-[[file:img/damage_effectiveness.webp]]
+Upon gaining a level you will get an attribute point to spend on one
+of the 5 character attributes in the game:
+
+- Strength :: Determines melee weapon damage.
+- Dexterity :: Determines ranged weapon damage, also contributes
+  slightly to damage of some melee weapons such as the sword.
+- Intelligence :: Increases damage of magic attacks.
+- Focus :: Primary stat for healers.
+- Constitution :: Increases health.
+
+At level 1 you start with 5 points in each of the attributes. Each time
+you level you will gain additional attribute points to be spent in the
+attribute of your choice. There is a total of 190 points to spend from
+leveling up, not counting bonuses from items and gems. You can also gain
+additional points in certain attributes through the use of jewelry and
+gems that are socketed into armor and weapons.
+
+*** Milestones
+You will also unlock additional character perks at certain character
+level milestones. You can view those milestones by pressing “K” and
+click the “view milestones” button in the bottom right of the screen.
+#+caption: Milestones
+| Niveau | Effet                                                                                                                                                                                          |
+|--------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|        |                                                                                                                                                                                                |
+|      5 | Second Weapon Slot & unlocks the survivalist quest to get your camp (You must complete the pre-requisite quests on the beach and in the starting settlement before you get the survivalist quest) |
+|     10 | Unlocks the ability to Duel other players & Unlocks your first bag slot                                                                                                                        |
+|     15 | Unlocks the ability to purchase your first house, upgrades camp to tier 2, and unlocks your third consumable slot.                                                                               |
+|     20 | Unlocks the ring slot; unlocks the tier 1 Azoth Staff Quest (You must first complete the required main story pre-requisite quests)                                                             |
+|     25 | Unlocks Camp tier 3; unlocks 4th consumable slot                                                                                                                                               |
+|     30 | Unlocks second bag slot, unlocks quest for Tier 2 Azoth Staff                                                                                                                                    |
+|     35 | Unlocks ability to purchase 2nd house                                                                                                                                                          |
+|     40 | Unlocks Earring Slot; Unlocks quest for Tier III Azoth Staff; Unlocks Camp tier 4 upgrade                                                                                                        |
+|     45 | Unlocks 3rd bad slot                                                                                                                                                                           |
+|     50 | Unlocks the ability to participate in invasions                                                                                                                                                 |
+|     55 | Unlocks the ability to purchase 3rd house; Unlocks camp tier 5 upgrade                                                                                                                         |
+|     60 | Unlocks the ability to participate in Outpost Rush                                                                                                                                              |
 
 
-** Buffs/Debuffs
 
-#+caption: Buffs
-| Effect  | Description                                 | limit                          |
-|---------+---------------------------------------------+--------------------------------|
-| Cleanse | Removes and provides immunity to all debuffs. |                                |
-| Empower | Increases attack damage.                    | 50 %                           |
-| Fortify | Increases damage absorption.                | 50 %                           |
-| Haste   | Increases run and/or sprint speed.          | 50 % (ignored by Haste Elixir) |
-| Heal    | Restores health over time.                  |                                |
+*** Gain d'expérience
+    Your character gains experience from combat by killing a mob or reduced
+    xp from doing damage to the mob if someone else is fighting the mob
+    along side you.
 
-#+caption: Debuffs
-| Effect  | Description                                             | limit |
-|---------+---------------------------------------------------------+-------|
-| Slow    | Reduces run and/or sprint speed.                        | 50 %  |
-| Rend    | Reduce damage absorption.                               | 30 %  |
-| Weaken  | Reduces attack damage.                                  | 50 %  |
-| Disease | Reduces healing.                                        | 50 %  |
-| Exhaust | Reduces stamina regeneration.                           |       |
-| Silence | Disables abilities but allows basic attacks.            |       |
-| Root    | Disables movement but allows basic attacks and abilities. |       |
-| Stun    | Disables all actions.                                   |       |
+    XP in a group:
 
-#+caption: Damage Over Time Effects
-| Effect | Description                        |
-|--------+------------------------------------|
-| Burn   | Applies Fire damage over time.     |
-| Bleed  | Applies Standard damage over time. |
-| Poison | Applies Magic damage over time.    |
-| Shock  | Applies Stamina damage over time.  |
+    - As long as a group (as a whole) does 15% damage to a creature,
+      everyone in the group gets XP and a chance at loot.
 
+    - Group members will have to satisfy requirements to get credit;
+      performing actions such as damage, heal, block in the last 2
+      minutes, and being within a certain distance of the killed
+      creature. Note: Ranged characters fear not—we picked a distance
+      well outside the range of normal attacks.
 
-* Armes/Classes
+    - The amount of XP that is granted when an enemy is
+      killed by a group is adjusted based on the number of groups and
+      number of players within those groups.
+
+    If you kill a *weaker creature* you will suffer diminishing returns
+    on XP gains of *40%* for creatures *10-19 levels below* your level and
+    *80% for 20+ levels below* your level.
+
+    If an enemy is 10+ levels above your level you will not be able to
+    see their level, and will see a skull icon above the creature. The
+    skull icon indicates that an enemy has the following properties:
+    they outright kill the player rather than leaving them at death's
+    door, they have an increased perception range of +10m, and they do
+    not get staggered by the player. Enemies will also gain armor buffs
+    starting at 3 levels over your level and they will also gain a
+    damage buff at 5 levels above your level
+
+    While leveling you will generally want to spend your points on
+    your main attribute, so if you are using melee weapons for leveling,
+    raise strength exclusively and only put points in constitution if you
+    have problems surviving.
+
+*** Standing system
+Another secondary form of character progression is the Standings
+system, which tracks your contribution to any of the faction-owned
+territories in Aeternum. All activities you do in a territory award you
+with small amounts of standing points, and once you have enough to
+advance a rank, you can use them to unlock special bonuses that apply
+while you are in this territory.
+** Équipement
+*** Concepts génériques
+    Les objets dans new world sont définis par deux variables principales :
+    - un score :: Un meilleur item a un score plus élevé (ceci dit il
+      ne fit pas forcément votre build)
+            #+caption: Tiers
+    | Tier | Score d'objet |
+    |------+---------------|
+    | I    |          0-99 |
+    | II   |       100-299 |
+    | III  |       250-399 |
+    | IV   |       350-499 |
+    | V    |       450-600 |
+    - un niveau de rareté :: Le niveau de rareté est la somme du
+      nombre de *perks* et *d'emplacement de gemmes* d'un objet.
+#+caption: Niveaux de raretés
+| Nom       | niveau |
+|-----------+--------|
+| Common    |      0 |
+| Uncommon  |      2 |
+| Rare      |      3 |
+| Epic      |      4 |
+| Legendary |      5 |
+
+*** Perks
+    Les perks sont des modificateurs d'objets leurs conférant divers
+    bonus. Les perks des objets lâchés par les monstres sont
+    aléatoires, mais il est possible de les choisir en fabricant des
+    objets.
+    https://newworldfans.com/db/category/perks
+*** Armes/Classes
 
   Les armes remplacent les traditionnelles "classes" dans new
   world. Il est possible d'en équiper *deux simultanément* et d'en
@@ -99,10 +174,56 @@
 
 #+caption: Infos sur l'épée
 [[file:img/armes_sword.webp]]
+*** Armures
 
-* Objets
-** Rapide introduction :
-   https://www.newworld.com/en-us/news/articles/items-in-new-world
+   https://newworldfans.com/articles/new-world-armor-guide
+** Types de dégâts
+   Les dégâts infligés sont affichés avec un code couleur,
+   correspondant à la résistance/neutralité/vulnérabilité vis à vis du
+   type de dégâts que fait votre arme.
+
+#+caption: Code couleur des dégâts
+| Couleur | Signification | Conséquence sur vos dégâts |
+|---------+---------------+----------------------------|
+| Bleu    | Résistance    | Malus                      |
+| Blanc   | neutre        | Base                       |
+| Jaune   | Vulnérabilité | Bonus                      |
+
+#+caption: Tableau des résistances en fonction des factions de mobs
+[[file:img/damage_effectiveness.webp]]
+
+** Buffs/Debuffs
+
+#+caption: Buffs
+| Effect  | Description                                 | limit                          |
+|---------+---------------------------------------------+--------------------------------|
+| Cleanse | Removes and provides immunity to all debuffs. |                                |
+| Empower | Increases attack damage.                    | 50 %                           |
+| Fortify | Increases damage absorption.                | 50 %                           |
+| Haste   | Increases run and/or sprint speed.          | 50 % (ignored by Haste Elixir) |
+| Heal    | Restores health over time.                  |                                |
+
+#+caption: Debuffs
+| Effect  | Description                                             | limit |
+|---------+---------------------------------------------------------+-------|
+| Slow    | Reduces run and/or sprint speed.                        | 50 %  |
+| Rend    | Reduce damage absorption.                               | 30 %  |
+| Weaken  | Reduces attack damage.                                  | 50 %  |
+| Disease | Reduces healing.                                        | 50 %  |
+| Exhaust | Reduces stamina regeneration.                           |       |
+| Silence | Disables abilities but allows basic attacks.            |       |
+| Root    | Disables movement but allows basic attacks and abilities. |       |
+| Stun    | Disables all actions.                                   |       |
+
+#+caption: Damage Over Time Effects
+| Effect | Description                        |
+|--------+------------------------------------|
+| Burn   | Applies Fire damage over time.     |
+| Bleed  | Applies Standard damage over time. |
+| Poison | Applies Magic damage over time.    |
+| Shock  | Applies Stamina damage over time.  |
+
+
 * Système de Craft
 *Trois étapes* sont nécessaires à la réalisation complète d'un objet.
 1. récolte ::
@@ -144,9 +265,13 @@
 *** Anti-Fun (pêche)
     https://newworldfishingguide.com/fishing-hotspot-locations.html
 
-* J'aime pas m'amuser (Min-max)
+* Conseils divers
+** Quality of life
+   https://kijingaming.com/new-world-quality-of-life-tips/#1_Bind_auto-run_to_a_mouse_key
+
+** J'aime pas m'amuser (Min-max)
   https://nwhub.gg/leveling-guide-free/?utm_source=nwdb&utm_medium=header&utm_campaign=0910
-* Stephan plazza
+** Stephan plazza
 
   Les maisons peuvent êtres achetées en ville et procurent des bonus *locaux* :
   - Plus de stockage
