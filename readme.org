@@ -25,13 +25,98 @@ of the 5 character attributes in the game:
 - Focus :: Primary stat for healers.
 - Constitution :: Increases health.
 
-At level 1 you start with 5 points in each of the attributes. Each time
+
+
+*** Attribute points
+    At level 1 you start with 5 points in each of the attributes. Each time
 you level you will gain additional attribute points to be spent in the
 attribute of your choice. There is a total of 190 points to spend from
 leveling up, not counting bonuses from items and gems. You can also gain
 additional points in certain attributes through the use of jewelry and
 gems that are socketed into armor and weapons.
 
+**** Strength (STR)
+
+Strength governs your power with melee weapons. Heavy melee weapons, such as the War Hammer, scale their damage exclusively on Strength, while lighter melee weapons like the Sword scale their damage primarily on Strength, but also slightly on Dexterity.
+
+    - +2.5% War Hammer Damage
+    - +2% Sword Damage
+    - +1.5% Hatchet Damage
+
+
+#+caption:  Strength Threshold Bonuses
+| # points | Bonus                                                                                                                 |
+|----------+-----------------------------------------------------------------------------------------------------------------------|
+|       50 | +15% damage to melee weapon light attacks, +10% mining speed                                                          |
+|      100 | +20% damage to melee weapon heavy attacks, +20 encumbrance                                                            |
+|      150 | +50% stamina damage from melee weapon light and heavy attacks, -10% decrease in weight of mined items                    |
+|      200 | +20% damage on stunned, slowed, or rooted enemies, +10% mining speed                                                   |
+|      250 | Stamina regeneration continues while performing light and heavy attacks with melee weapons, +10% yield increase when mining |
+|      300 | Light and heavy attacks with melee weapons gain Grit, 25% chance to fully mine an ore node with a single swing          |
+
+**** Dexterity (DEX)
+
+Dexterity governs the effectiveness with ranged weapons. Bows, Muskets, and Rapier attacks scale off a character’s Dexterity. Lighter melee weapons also see a benefit from Dexterity, but not as much as they gain from Strength.
+
+    +0.5% Sword Damage
+    +1% Hatchet Damage
+    +2.4% Bow Damage
+    +2.5% Musket Damage
+    +?% Rapier Damage
+
+#+caption:  Dexterity Threshold Bonuses
+| # points | Bonus                                                                                              |
+|----------+----------------------------------------------------------------------------------------------------|
+|       50 | +10% chance to critical hit, +10 skinning speed                                                    |
+|      100 | +5% piercing damage, +20% haste for 3 seconds after skinning                                         |
+|      150 | Dodging cost 10 less stamina, -10% decrease in weight of skinned items                              |
+|      200 | +20% bonus backstab and headshot damage, +10% skinning speed                                         |
+|      250 | +30% bonus critical hit damage on stunned, slowed, or rooted enemies, +10% yield increase when skinning |
+|      300 | Ammo has +15% chance of being returned, guaranteed critical hit after a dodge roll                 |
+
+**** Intelligence (INT)
+
+Intelligence governs your power with magical weapons, including any magical Perks your weapons might have. Both purely magical weapons like the Fire Staff, and physical weapons with a Magical Perk (such as a Flaming Sword), grow in power based on your Intelligence Attribute.
+
+    +2.5% Magic Weapon Damage
+
+#+caption:  Intelligence Threshold Bonuses
+| # points | Bonus                                                                              |
+|----------+------------------------------------------------------------------------------------|
+|       50 | +10% damage to light and heavy magic attacks, +10% harvest speed                     |
+|      100 | +20% critical hit damage, 5% chance to gain 1 azoth when harvesting                |
+|      150 | +20% to elemental damage, -10% decrease in weight of harvested items                |
+|      200 | +10 mana after a dodge, +10% harvest speed                                         |
+|      250 | +30% duration to damage of time spells, +10% yield increase when harvesting            |
+|      300 | +30% damage on first hit on full health target, -10% reduction in Azoth travel cost |
+
+**** Focus (FOC)
+
+Focus governs your Mana recovery rate and your healing output.
+#+caption:  Focus Threshold Bonuses
+| # points | Bonus                                                                                                   |
+|----------+---------------------------------------------------------------------------------------------------------|
+|       50 | +10% mana regeneration rate, +10% fishing line tension                                                  |
+|      100 | +20 to mana pool, +10% yield increase when salvaging                                                        |
+|      150 | +20% healing output, -10% decrease in weight of fishing items                                            |
+|      200 | +20% duration on casted buffs, +10% fishing line tension                                                |
+|      250 | +30 mana on any self or group kill, +10% increase to caught fish size                                    |
+|      300 | When mana hits zero gain 200% mana regen for 10s (60s cooldown), 10% cooldown reduction for Inn fast travel |
+
+**** Constitution (CON)
+
+Constitution governs your overall Health pool. The higher your Constitution, the more damage you can sustain before succumbing to your injuries.
+
+Constitution has diminishing returns on the amount of HP granted per level the more points you put into it. It starts at 25 HP granted per attribute point, and decreases gradually until you get 21 HP per attribute. This decreased the total HP granted from Constitution slightly from 12,175 to 11,325, but increased the amount of HP players get from Constitution at a lower level.
+#+caption:  Constitution Threshold Bonuses
+| # points | Bonus                                                                                       |
+|----------+---------------------------------------------------------------------------------------------|
+|       50 | All health consumables +20% stronger, +10% logging speed                                    |
+|      100 | Increase max health by 10% of physical armor, 10% reduction on durability loss for tools      |
+|      150 | 20% reduction to crit damage taken, 10% decrease in weight of logging items                  |
+|      200 | +20% increase to armor, +10% logging speed                                                  |
+|      250 | 80% damage reduction when full health, +10% yield increase when logging                         |
+|      300 | +30% duration of stun, slow, and root spells, 25% chance to chop down a tree in a single swing |
 *** Milestones
 You will also unlock additional character perks at certain character
 level milestones. You can view those milestones by pressing “K” and
@@ -112,17 +197,16 @@ while you are in this territory.
     | II   |       100-299 |
     | III  |       250-399 |
     | IV   |       350-499 |
-    | V    |       450-600 |
     - un niveau de rareté :: Le niveau de rareté est la somme du
       nombre de *perks* et *d'emplacement de gemmes* d'un objet.
 #+caption: Niveaux de raretés
-| Nom       | niveau |
-|-----------+--------|
-| Common    |      0 |
-| Uncommon  |      2 |
-| Rare      |      3 |
-| Epic      |      4 |
-| Legendary |      5 |
+| Nom       | niveau | Couleur |
+|-----------+--------+---------|
+| Common    |      0 | blanc   |
+| Uncommon  |      2 | vert    |
+| Rare      |      3 | bleu    |
+| Epic      |      4 | violet  |
+| Legendary |      5 | orange  |
 
 *** Perks
     Les perks sont des modificateurs d'objets leurs conférant divers
@@ -175,7 +259,24 @@ while you are in this territory.
 #+caption: Infos sur l'épée
 [[file:img/armes_sword.webp]]
 *** Armures
+    Il existe trois catégories d'armures :
 
+- Light :: While wearing light armor, your dodge is a quick roll that
+  covers a lot of distance. Light armor tends to be less protective,
+  however you gain a 20% damage bonus while in the light armor weight
+  category. The damage increase also affects your healing output.
+
+- Normal :: While wearing normal weight armor, your dodge is a quick
+  hop. This offers a good balance between protection and mobility. You
+  deal 10% damage and crowd control debuffs you apply last 10% longer.
+  The damage increase also affects your healing output.
+
+- Heavy :: While wearing heavy armor, your dodge is a slow
+  sidestep. Heavy armor limits your mobility but offers the best
+  damage mitigation. Your block stability is increased by 15% and crowd
+  control debuffs you apply last 20% longer.
+
+   Les armures Physical vs Elemental Armor
    https://newworldfans.com/articles/new-world-armor-guide
 ** Types de dégâts
    Les dégâts infligés sont affichés avec un code couleur,
