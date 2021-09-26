@@ -191,12 +191,13 @@ while you are in this territory.
     - un score :: Un meilleur item a un score plus élevé (ceci dit il
       ne fit pas forcément votre build)
             #+caption: Tiers
-    | Tier | Score d'objet |
-    |------+---------------|
-    | I    |          0-99 |
-    | II   |       100-299 |
-    | III  |       250-399 |
-    | IV   |       350-499 |
+    | Tier | Score d'objet | Niveau de joueur requis |
+    |------+---------------+-------------------------|
+    | I    |          0-99 |                         |
+    | II   |       100-299 |                    1-19 |
+    | III  |       250-399 |                   20-39 |
+    | IV   |       350-499 |                   40-59 |
+    | V    |       500-600 |                      60 |
     - un niveau de rareté :: Le niveau de rareté est la somme du
       nombre de *perks* et *d'emplacement de gemmes* d'un objet.
 #+caption: Niveaux de raretés
@@ -276,6 +277,11 @@ while you are in this territory.
   damage mitigation. Your block stability is increased by 15% and crowd
   control debuffs you apply last 20% longer.
 
+  La catégorie actuelle de votre armure dépend du poids total des
+  éléments d'armure équipés.
+
+  #+caption: Calcul de la catégorie d'armure
+[[file:img/armure_poids.webp]]
    Les armures Physical vs Elemental Armor
    https://newworldfans.com/articles/new-world-armor-guide
 ** Types de dégâts
@@ -283,12 +289,16 @@ while you are in this territory.
    correspondant à la résistance/neutralité/vulnérabilité vis à vis du
    type de dégâts que fait votre arme.
 
+   Les dégâts critiques sont possibles dans plusieurs cas de figure
+   comme les tirs dans la tête et les coups dans le dos.
+
 #+caption: Code couleur des dégâts
 | Couleur | Signification | Conséquence sur vos dégâts |
 |---------+---------------+----------------------------|
 | Bleu    | Résistance    | Malus                      |
 | Blanc   | neutre        | Base                       |
 | Jaune   | Vulnérabilité | Bonus                      |
+| Orange  | Critique      | Bonus                      |
 
 #+caption: Tableau des résistances en fonction des factions de mobs
 [[file:img/damage_effectiveness.webp]]
@@ -332,6 +342,20 @@ while you are in this territory.
 3. Fabrication ::
 
 ** Détails sur la récolte
+
+   La vitesse de récolte dépend :
+
+   - De l'outil équipé
+   - Des bonus du territoire actuel (avec le système de cartes
+     débloquée avec le standing)
+   #+caption: Vitesse de récolte en fonction de l'outil
+   | Outil  | Vitesse |
+   |--------+---------|
+   | Tier 1 |    100% |
+   | Tier 2 |    125% |
+   | Tier 3 |    250% |
+   | Tier 4 |    400% |
+   | Tier 5 |    625% |
 
    Infographies récupérées ici :
    https://www.reddit.com/r/newworldgame/comments/prcvrn/updated_new_world_gathering_infographics/
