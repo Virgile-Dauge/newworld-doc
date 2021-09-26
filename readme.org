@@ -185,6 +185,311 @@ territories in Aeternum. All activities you do in a territory award you
 with small amounts of standing points, and once you have enough to
 advance a rank, you can use them to unlock special bonuses that apply
 while you are in this territory.
+#+caption: Bonus de territoires
+| Niveau de réputation | Choix de bonus                                 | Titre associé |
+|----------------------+------------------------------------------------+---------------|
+|                    0 |                                                | Stranger      |
+|                    1 | Standing Gain, XP Gain, Gather                 | Newcomer      |
+|                    2 | Station fee, Trading Tax, Storage              |               |
+|                    3 | Standing Gain, Station fee, Gather             |               |
+|                    4 | Trading Tax, XP Gain, Storage                  |               |
+|                    5 | Standing Gain, Station fee, Gather             | Known         |
+|                    6 | XP Gain, Trading Tax, Storage                  |               |
+|                    7 | Standing Gain, Station fee, Gather             |               |
+|                    8 | Trading Tax, XP Gain, Storage                  |               |
+|                    9 | Standing Gain, Station fee, Gather             |               |
+|                   10 | Trading Tax, XP Gain, Storage, House Ownership | Well Known    |
+|                   11 | Standing Gain, Station fee, Gather             |               |
+|                   12 | Trading Tax, Faction Tokens, Storage           |               |
+|                   13 | Standing Gain, Station fee, Gather             |               |
+|                   14 | Trading Tax, Faction Tokens, Storage           |               |
+|                   15 | Standing Gain, Station fee, Gather             | Respected     |
+|                   16 | Trading Tax, Faction Tokens, Storage           |               |
+|                   17 | Property tax, Trading Tax, Station fee         |               |
+|                   18 | Standing Gain, Faction Tokens, Storage         |               |
+|                   19 | Station fee, Trading Tax, Property tax         |               |
+|                   20 | Standing Gain, Faction Tokens, Gather          | Admired       |
+|                   21 | Station fee, House Items, Property tax         |               |
+|                   22 | Standing Gain, Faction Tokens, Gather          |               |
+|                   23 | Station fee, Trading Tax, Storage              |               |
+|                   24 | Standing Gain, Faction Tokens, Gather          |               |
+|                   25 | Station fee, Trading Tax, Property tax         | Prominent     |
+|                   26 | Standing Gain, Faction Tokens, Gather          |               |
+|                   27 | Station fee, Trading Tax, Property tax         |               |
+|                   28 | Standing Gain, Storage, Gather                 |               |
+|                   29 | Station fee, Trading Tax, Property tax         |               |
+|                   30 | Standing Gain, Faction Tokens, Gather          |               |
+|                   31 | Station fee, Trading Tax, Property tax         |               |
+|                   32 | Standing Gain, Faction Tokens, Gather          |               |
+|                   33 | Station fee, Storage, Property tax             |               |
+|                   34 | Standing Gain, Faction Tokens, Gather          |               |
+|                   35 | Station fee, Trading Tax, Property tax         | Distinguished |
+|                   36 | Standing Gain, House Items, Gather             |               |
+|                   37 | Station fee, Trading Tax, Property tax         |               |
+|                   38 | Storage, Faction Tokens, Gather                |               |
+|                   39 | Station fee, Trading Tax, Property tax         |               |
+|                   40 | Standing Gain, Faction Tokens, Gather          | Dignified     |
+|                   41 | Station fee, Trading Tax, Property tax         |               |
+|                   42 | Standing Gain, Faction Tokens, Gather          |               |
+|                   43 | Storage, Trading Tax, Property tax             |               |
+|                   44 | Standing Gain, Faction Tokens, Gather          |               |
+|                   45 | Station fee, Trading Tax, Property tax         |               |
+|                   46 | Standing Gain, Faction Tokens, Gather          |               |
+|                   47 | Station fee, Trading Tax, Property tax         |               |
+|                   48 | Standing Gain, Faction Tokens, Storage         |               |
+|                   49 | Station fee, Trading Tax, Property tax         |               |
+|                   50 | Standing Gain, Faction Tokens, Gather          | Prestigious   |
+|                   51 | Station fee, House Items, Property tax         |               |
+|                   52 | Standing Gain, Faction Tokens, Gather          |               |
+|                   53 | Station fee, Trading Tax, Storage              |               |
+|                   54 | Standing Gain, Faction Tokens, Gather          |               |
+|                   55 | Station fee, Trading Tax, Property tax         |               |
+|                   56 | Standing Gain, Faction Tokens, Gather          |               |
+|                   57 | Station fee, Trading Tax, Property tax         |               |
+|                   58 | Standing Gain, Storage, Gather                 |               |
+|                   59 | Station fee, Trading Tax, Property tax         |               |
+|                   60 | Standing Gain, Faction Tokens, Gather          | Illustrious   |
+|                   61 | Station fee, Trading Tax, Property tax         |               |
+|                   62 | Standing Gain, Faction Tokens, Gather          |               |
+|                   63 | Station fee, Storage, Property tax             |               |
+|                   64 | Standing Gain, Faction Tokens, Gather          |               |
+|                   65 | Station fee, Trading Tax, Property tax         |               |
+|                   66 | Standing Gain, House Items, Gather             |               |
+|                   67 | Station fee, Trading Tax, Property tax         |               |
+|                   68 | Storage, Faction Tokens, Gather                |               |
+|                   69 | Station fee, Trading Tax, Property tax         |               |
+|                   70 | Standing Gain, Faction Tokens, Gather          | Vaunted       |
+|                   71 | Station fee, Trading Tax, Property tax         |               |
+|                   72 | Standing Gain, Faction Tokens, Gather          |               |
+|                   73 | Storage, Trading Tax, Property tax             |               |
+|                   74 | Standing Gain, Faction Tokens, Gather          |               |
+|                   75 | Station fee, Trading Tax, Property tax         |               |
+|                   76 | Standing Gain, Faction Tokens, Gather          |               |
+|                   77 | Station fee, Trading Tax, Property tax         |               |
+|                   78 | Standing Gain, Faction Tokens, Storage         |               |
+|                   79 | Station fee, Trading Tax, Property tax         |               |
+|                   80 | Standing Gain, Faction Tokens, Gather          | Acclaimed     |
+|                   81 | Station fee, House Items, Property tax         |               |
+|                   82 | Standing Gain, Faction Tokens, Gather          |               |
+|                   83 | Station fee, Trading Tax, Storage              |               |
+|                   84 | Standing Gain, Faction Tokens, Gather          |               |
+|                   85 | Station fee, Trading Tax, Property tax         |               |
+|                   86 | Standing Gain, Faction Tokens, Gather          |               |
+|                   87 | Station fee, Trading Tax, Property tax         |               |
+|                   88 | Standing Gain, Storage, Gather                 |               |
+|                   89 | Station fee, Trading Tax, Property tax         |               |
+|                   90 | Standing Gain, Faction Tokens, Gather          | Honored       |
+|                   91 | Station fee, Trading Tax, Property tax         |               |
+|                   92 | Standing Gain, Faction Tokens, Gather          |               |
+|                   93 | Station fee, Storage, Property tax             |               |
+|                   94 | Standing Gain, Faction Tokens, Gather          |               |
+|                   95 | Station fee, Trading Tax, Property tax         |               |
+|                   96 | Standing Gain, House Items, Gather             |               |
+|                   97 | Station fee, Trading Tax, Property tax         |               |
+|                   98 | Storage, Faction Tokens, Gather                |               |
+|                   99 | Station fee, Trading Tax, Property tax         |               |
+|                  100 | Standing Gain, Faction Tokens, Gather          | Renowned      |
+|                  101 | Station fee, Trading Tax, Property tax         |               |
+|                  102 | Standing Gain, Faction Tokens, Gather          |               |
+|                  103 | Storage, Trading Tax, Property tax             |               |
+|                  104 | Standing Gain, Faction Tokens, Gather          |               |
+|                  105 | Station fee, Trading Tax, Property tax         |               |
+|                  106 | Standing Gain, Faction Tokens, Gather          |               |
+|                  107 | Station fee, Trading Tax, Property tax         |               |
+|                  108 | Standing Gain, Faction Tokens, Storage         |               |
+|                  109 | Station fee, Trading Tax, Property tax         |               |
+|                  110 | Standing Gain, Faction Tokens, Gather          |               |
+|                  111 | Station fee, House Items, Property tax         |               |
+|                  112 | Standing Gain, Faction Tokens, Gather          |               |
+|                  113 | Station fee, Trading Tax, Storage              |               |
+|                  114 | Standing Gain, Faction Tokens, Gather          |               |
+|                  115 | Station fee, Trading Tax, Property tax         | Esteemed      |
+|                  116 | Standing Gain, Faction Tokens, Gather          |               |
+|                  117 | Station fee, Trading Tax, Property tax         |               |
+|                  118 | Standing Gain, Storage, Gather                 |               |
+|                  119 | Station fee, Trading Tax, Property tax         |               |
+|                  120 | Standing Gain, Faction Tokens, Gather          |               |
+|                  121 | Station fee, Trading Tax, Property tax         |               |
+|                  122 | Standing Gain, Faction Tokens, Gather          |               |
+|                  123 | Station fee, Storage, Property tax             |               |
+|                  124 | Standing Gain, Faction Tokens, Gather          |               |
+|                  125 | Station fee, Trading Tax, Property tax         |               |
+|                  126 | Standing Gain, House Items, Gather             |               |
+|                  127 | Station fee, Trading Tax, Property tax         |               |
+|                  128 | Storage, Faction Tokens, Gather                |               |
+|                  129 | Station fee, Trading Tax, Property tax         |               |
+|                  130 | Standing Gain, Faction Tokens, Gather          | Celebrated    |
+|                  131 | Station fee, Trading Tax, Property tax         |               |
+|                  132 | Standing Gain, Faction Tokens, Gather          |               |
+|                  133 | Storage, Trading Tax, Property tax             |               |
+|                  134 | Standing Gain, Faction Tokens, Gather          |               |
+|                  135 | Station fee, Trading Tax, Property tax         |               |
+|                  136 | Standing Gain, Faction Tokens, Gather          |               |
+|                  137 | Station fee, Trading Tax, Property tax         |               |
+|                  138 | Standing Gain, Faction Tokens, Storage         |               |
+|                  139 | Station fee, Trading Tax, Property tax         |               |
+|                  140 | Standing Gain, Faction Tokens, Gather          |               |
+|                  141 | Station fee, House Items, Property tax         |               |
+|                  142 | Standing Gain, Faction Tokens, Gather          |               |
+|                  143 | Station fee, Trading Tax, Storage              |               |
+|                  144 | Standing Gain, Faction Tokens, Gather          |               |
+|                  145 | Station fee, Trading Tax, Property tax         | Famous        |
+|                  146 | Standing Gain, Faction Tokens, Gather          |               |
+|                  147 | Station fee, Trading Tax, Property tax         |               |
+|                  148 | Standing Gain, Storage, Gather                 |               |
+|                  149 | Station fee, Trading Tax, Property tax         |               |
+|                  150 | Standing Gain, Faction Tokens, Gather          |               |
+|                  151 | Station fee, Trading Tax, Property tax         |               |
+|                  152 | Standing Gain, Faction Tokens, Gather          |               |
+|                  153 | Station fee, Storage, Property tax             |               |
+|                  154 | Standing Gain, Faction Tokens, Gather          |               |
+|                  155 | Station fee, Trading Tax, Property tax         |               |
+|                  156 | Standing Gain, House Items, Gather             |               |
+|                  157 | Station fee, Trading Tax, Property tax         |               |
+|                  158 | Storage, Faction Tokens, Gather                |               |
+|                  159 | Station fee, Trading Tax, Property tax         |               |
+|                  160 | Standing Gain, Faction Tokens, Gather          | Venerable     |
+|                  161 | Station fee, Trading Tax, Property tax         |               |
+|                  162 | Standing Gain, Faction Tokens, Gather          |               |
+|                  163 | Storage, Trading Tax, Property tax             |               |
+|                  164 | Standing Gain, Faction Tokens, Gather          |               |
+|                  165 | Station fee, Trading Tax, Property tax         |               |
+|                  166 | Standing Gain, Faction Tokens, Gather          |               |
+|                  167 | Station fee, Trading Tax, Property tax         |               |
+|                  168 | Standing Gain, Faction Tokens, Storage         |               |
+|                  169 | Station fee, Trading Tax, Property tax         |               |
+|                  170 | Standing Gain, Faction Tokens, Gather          |               |
+|                  171 | Station fee, House Items, Property tax         |               |
+|                  172 | Standing Gain, Faction Tokens, Gather          |               |
+|                  173 | Station fee, Trading Tax, Storage              |               |
+|                  174 | Standing Gain, Faction Tokens, Gather          |               |
+|                  175 | Station fee, Trading Tax, Property tax         | Revered       |
+|                  176 | Standing Gain, Faction Tokens, Gather          |               |
+|                  177 | Station fee, Trading Tax, Property tax         |               |
+|                  178 | Standing Gain, Storage, Gather                 |               |
+|                  179 | Station fee, Trading Tax, Property tax         |               |
+|                  180 | Standing Gain, Faction Tokens, Gather          |               |
+|                  181 | Station fee, Trading Tax, Property tax         |               |
+|                  182 | Standing Gain, Faction Tokens, Gather          |               |
+|                  183 | Station fee, Storage, Property tax             |               |
+|                  184 | Standing Gain, Faction Tokens, Gather          |               |
+|                  185 | Station fee, Trading Tax, Property tax         |               |
+|                  186 | Standing Gain, House Items, Gather             |               |
+|                  187 | Station fee, Trading Tax, Property tax         |               |
+|                  188 | Storage, Faction Tokens, Gather                |               |
+|                  189 | Station fee, Trading Tax, Property tax         |               |
+|                  190 | Standing Gain, Faction Tokens, Gather          | Preeminent    |
+|                  191 | Station fee, Trading Tax, Property tax         |               |
+|                  192 | Standing Gain, Faction Tokens, Gather          |               |
+|                  193 | Storage, Trading Tax, Property tax             |               |
+|                  194 | Standing Gain, Faction Tokens, Gather          |               |
+|                  195 | Station fee, Trading Tax, Property tax         |               |
+|                  196 | Standing Gain, Faction Tokens, Gather          |               |
+|                  197 | Station fee, Trading Tax, Property tax         |               |
+|                  198 | Standing Gain, Faction Tokens, Storage         |               |
+|                  199 | Station fee, Trading Tax, Property tax         |               |
+|                  200 | Standing Gain, Faction Tokens, Gather          |               |
+|                  201 | Station fee, House Items, Property tax         |               |
+|                  202 | Standing Gain, Faction Tokens, Gather          |               |
+|                  203 | Station fee, Trading Tax, Storage              |               |
+|                  204 | Standing Gain, Faction Tokens, Gather          |               |
+|                  205 | Station fee, Trading Tax, Property tax         | Eminent       |
+|                  206 | Standing Gain, Faction Tokens, Gather          |               |
+|                  207 | Station fee, Trading Tax, Property tax         |               |
+|                  208 | Standing Gain, Storage, Gather                 |               |
+|                  209 | Station fee, Trading Tax, Property tax         |               |
+|                  210 | Standing Gain, Faction Tokens, Gather          |               |
+|                  211 | Station fee, Trading Tax, Property tax         |               |
+|                  212 | Standing Gain, Faction Tokens, Gather          |               |
+|                  213 | Station fee, Storage, Property tax             |               |
+|                  214 | Standing Gain, Faction Tokens, Gather          |               |
+|                  215 | Station fee, Trading Tax, Property tax         |               |
+|                  216 | Standing Gain, House Items, Gather             |               |
+|                  217 | Station fee, Trading Tax, Property tax         |               |
+|                  218 | Storage, Faction Tokens, Gather                |               |
+|                  219 | Station fee, Trading Tax, Property tax         |               |
+|                  220 | Standing Gain, Faction Tokens, Gather          | Exalted       |
+|                  221 | Station fee, Trading Tax, Property tax         |               |
+|                  222 | Standing Gain, Faction Tokens, Gather          |               |
+|                  223 | Storage, Trading Tax, Property tax             |               |
+|                  224 | Standing Gain, Faction Tokens, Gather          |               |
+|                  225 | Station fee, Trading Tax, Property tax         |               |
+|                  226 | Standing Gain, Faction Tokens, Gather          |               |
+|                  227 | Station fee, Trading Tax, Property tax         |               |
+|                  228 | Standing Gain, Faction Tokens, Storage         |               |
+|                  229 | Station fee, Trading Tax, Property tax         |               |
+|                  230 | Standing Gain, Faction Tokens, Gather          |               |
+|                  231 | Station fee, House Items, Property tax         |               |
+|                  232 | Standing Gain, Faction Tokens, Gather          |               |
+|                  233 | Station fee, Trading Tax, Storage              |               |
+|                  234 | Standing Gain, Faction Tokens, Gather          |               |
+|                  235 | Station fee, Trading Tax, Property tax         | Astral        |
+|                  236 | Standing Gain, Faction Tokens, Gather          |               |
+|                  237 | Station fee, Trading Tax, Property tax         |               |
+|                  238 | Standing Gain, Storage, Gather                 |               |
+|                  239 | Station fee, Trading Tax, Property tax         |               |
+|                  240 | Standing Gain, Faction Tokens, Gather          |               |
+|                  241 | Station fee, Trading Tax, Property tax         |               |
+|                  242 | Standing Gain, Faction Tokens, Gather          |               |
+|                  243 | Station fee, Storage, Property tax             |               |
+|                  244 | Standing Gain, Faction Tokens, Gather          |               |
+|                  245 | Station fee, Trading Tax, Property tax         |               |
+|                  246 | Standing Gain, House Items, Gather             |               |
+|                  247 | Station fee, Trading Tax, Property tax         |               |
+|                  248 | Storage, Faction Tokens, Gather                |               |
+|                  249 | Station fee, Trading Tax, Property tax         |               |
+|                  250 | Standing Gain, Faction Tokens, Gather          | Luminary      |
+|                  251 | Station fee, Trading Tax, Property tax         |               |
+|                  252 | Standing Gain, Faction Tokens, Gather          |               |
+|                  253 | Storage, Trading Tax, Property tax             |               |
+|                  254 | Standing Gain, Faction Tokens, Gather          |               |
+|                  255 | Station fee, Trading Tax, Property tax         |               |
+|                  256 | Standing Gain, Faction Tokens, Gather          |               |
+|                  257 | Station fee, Trading Tax, Property tax         |               |
+|                  258 | Standing Gain, Faction Tokens, Storage         |               |
+|                  259 | Station fee, Trading Tax, Property tax         |               |
+|                  260 | Standing Gain, Faction Tokens, Gather          |               |
+|                  261 | Station fee, House Items, Property tax         |               |
+|                  262 | Standing Gain, Faction Tokens, Gather          |               |
+|                  263 | Station fee, Trading Tax, Storage              |               |
+|                  264 | Standing Gain, Faction Tokens, Gather          |               |
+|                  265 | Station fee, Trading Tax, Property tax         | Fabled        |
+|                  266 | Standing Gain, Faction Tokens, Gather          |               |
+|                  267 | Station fee, Trading Tax, Property tax         |               |
+|                  268 | Standing Gain, Storage, Gather                 |               |
+|                  269 | Station fee, Trading Tax, Property tax         |               |
+|                  270 | Standing Gain, Faction Tokens, Gather          |               |
+|                  271 | Station fee, Trading Tax, Property tax         |               |
+|                  272 | Standing Gain, Faction Tokens, Gather          |               |
+|                  273 | Station fee, Storage, Property tax             |               |
+|                  274 | Standing Gain, Faction Tokens, Gather          |               |
+|                  275 | Station fee, Trading Tax, Property tax         |               |
+|                  276 | Standing Gain, House Items, Gather             |               |
+|                  277 | Station fee, Trading Tax, Property tax         |               |
+|                  278 | Storage, Faction Tokens, Gather                |               |
+|                  279 | Station fee, Trading Tax, Property tax         |               |
+|                  280 | Standing Gain, Faction Tokens, Gather          | Legendary     |
+|                  281 | Station fee, Trading Tax, Property tax         |               |
+|                  282 | Standing Gain, Faction Tokens, Gather          |               |
+|                  283 | Storage, Trading Tax, Property tax             |               |
+|                  284 | Standing Gain, Faction Tokens, Gather          |               |
+|                  285 | Station fee, Trading Tax, Property tax         |               |
+|                  286 | Standing Gain, Faction Tokens, Gather          |               |
+|                  287 | Station fee, Trading Tax, Property tax         |               |
+|                  288 | Standing Gain, Faction Tokens, Storage         |               |
+|                  289 | Station fee, Trading Tax, Property tax         |               |
+|                  290 | Standing Gain, Faction Tokens, Gather          |               |
+|                  291 | Station fee, House Items, Property tax         |               |
+|                  292 | Standing Gain, Faction Tokens, Gather          |               |
+|                  293 | Station fee, Trading Tax, Storage              |               |
+|                  294 | Standing Gain, Faction Tokens, Gather          |               |
+|                  295 | Station fee, Trading Tax, Property tax         |               |
+|                  296 | Standing Gain, Faction Tokens, Gather          |               |
+|                  297 | Station fee, Trading Tax, Property tax         |               |
+|                  298 | Standing Gain, Storage, Gather                 |               |
+|                  299 | Station fee, Trading Tax, Property tax         |               |
+|                  300 | Standing Gain, House Items, Gather             | Mythic        |
+
 ** Équipement
 *** Concepts génériques
     Les objets dans new world sont définis par deux variables principales :
