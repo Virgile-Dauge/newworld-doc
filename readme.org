@@ -435,7 +435,7 @@ La catégorie actuelle de votre armure dépend du poids total des
 
   https://newworldfans.com/
 
-* TODO Traitement images                                           :noexport:
+* Traitement images                                                :noexport:
 
 #+begin_src bash :eval never-export
     convert img/recolte_wood.webp -crop 2616x1762+0+0 img/recolte_wood_bonus.webp
@@ -449,3 +449,9 @@ La catégorie actuelle de votre armure dépend du poids total des
 #+end_src
 
 #+RESULTS:
+
+* Test nwdb tooltip
+#+begin_export html
+<script async src="https://nwdb.info/embed.js"></script>
+<a href="https://nwdb.info/db/item/potionfocust4">Infused Focus Potion</a>
+#+end_export
