@@ -277,13 +277,15 @@ while you are in this territory.
   damage mitigation. Your block stability is increased by 15% and crowd
   control debuffs you apply last 20% longer.
 
-  La catégorie actuelle de votre armure dépend du poids total des
-  éléments d'armure équipés.
+La catégorie actuelle de votre armure dépend du poids total des
+éléments d'armure équipés.
 
-  #+caption: Calcul de la catégorie d'armure
+#+caption: Calcul de la catégorie d'armure
 [[file:img/armure_poids.webp]]
-   Les armures Physical vs Elemental Armor
+
+   Source :
    https://newworldfans.com/articles/new-world-armor-guide
+
 ** Types de dégâts
    Les dégâts infligés sont affichés avec un code couleur,
    correspondant à la résistance/neutralité/vulnérabilité vis à vis du
